@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 //demo for basic flex and wrap option
+
+import './flexcontainer.css';
+
 export default class FlexContainer extends Component {
   render() {
     return (

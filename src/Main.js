@@ -7,8 +7,8 @@ import FlexContainer from './FlexContainer';
 const Main = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/wrap' component={FlexContainer}/>
+      <Route exact path='/s' component={Home}/>
+      <Route exact path='/wrap' component={FlexContainer}/>
      
     </Switch>
   </BrowserRouter>
