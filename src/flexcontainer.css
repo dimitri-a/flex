@@ -1,18 +1,30 @@
 .flex-container {
-    display: flex; /*turn the flex on for the container*/
-    flex-direction: row;
-    flex-wrap: wrap; /*this does no wrap, if you wanna wrap choose wrap option*/
-    background-color: DodgerBlue;
-    justify-content: space-between
-  }
+  display: flex; /*turn the flex on for the container*/
+  flex-direction: row;
+  background-color: DodgerBlue;
+
+  justify-content: space-around
+
+}
+
+.flex-container .div1 {
+  background-color: #f1f1f1;
   
-  .flex-container>div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
-  
-  
+  margin:10px;
+  line-height: 70px;
+  width:10%;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
+.flex-container .div2 {
+  background-color: #52bb4e;
+  width:10%;
+  margin:10px;
+  line-height: 70px;
+  font-size: 18px;
+  text-align: center;
+}
+
