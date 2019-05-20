@@ -1,7 +1,9 @@
 .flex-container {
-  display: flex;
-  flex-wrap: nowrap; /*this does no wrap*/
+  display: flex; /*turn the flex on for the container*/
+  flex-direction: row;
+  flex-wrap: nowrap; /*this does no wrap, if you wanna wrap choose wrap option*/
   background-color: DodgerBlue;
+  justify-content: space-between
 }
 
 .flex-container>div {
