@@ -11,6 +11,8 @@ const Header = () => (
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/wrap'>Wrap function</Link></li>
 
+        <li><Link to='/onerow'>One row alignment few components</Link></li>
+
       </ul>
     </nav>
   </header>

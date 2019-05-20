@@ -1,0 +1,10 @@
+.onerow-container {
+  display: flex; /*turn the flex on for the container*/
+  flex-direction: row;
+  background-color: DodgerBlue;
+}
+
+.onerow-container .div1 {
+  background-color: #5435a8;
+ 
+}
